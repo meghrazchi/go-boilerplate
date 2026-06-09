@@ -1,0 +1,14 @@
+.git
+.github
+.idea
+.vscode
+bin
+coverage.out
+*.log
+.env
+.env.*
+!.env.example
+tmp
+vendor
+.DS_Store
+go-ddd-boilerplate.zip

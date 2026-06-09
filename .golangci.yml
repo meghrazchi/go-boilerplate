@@ -1,0 +1,27 @@
+version: "2"
+
+run:
+  tests: true
+
+formatters:
+  enable:
+    - gofmt
+    - goimports
+
+linters:
+  enable:
+    - errcheck
+    - gocritic
+    - govet
+    - ineffassign
+    - misspell
+    - revive
+    - staticcheck
+    - unused
+  exclusions:
+    paths:
+      - docs
+
+issues:
+  max-issues-per-linter: 0
+  max-same-issues: 0
